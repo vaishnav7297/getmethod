@@ -14,7 +14,7 @@
   }
 </style>
 
-<table>
+<!-- <table>
   <tr>
     <th>Id</th>
     <th>Post Id</th>
@@ -30,4 +30,12 @@
     <td>{{ com.email }}</td>
     <td>{{ com.body }}</td>
   </tr>
-</table>
+</table> -->
+
+<!-- {{ url }} -->
+
+ <label for="cit">City</label>
+  <select name="cityy" id="cit">
+    <option value="cit" *ngFor= "let item of cities"  > {{item.country_name}} </option>
+
+  </select>
